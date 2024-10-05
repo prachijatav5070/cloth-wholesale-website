@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar {
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    background-color:whitesmoke;
+    font-size: 20px;
+    color: black;
+  }
+
+  .navbar ul{
+    font-size: 33px;
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar ul a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+  .icons a {
+    color: purple;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .navbar a:hover {
+    color:rgb(51, 19, 148);
+    background-color: rgb(220, 208, 210);
+  }
+  
+  .hero .navbar label i{
+    color: white;
+    display: none;
+    margin-right: 40px;
+    font-size: 30px;
+  }
+  
+  /* #click{
+    display: none;
+  }
+   */
+  
+  .side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  
+  }
+  
+  .blow_c{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    word-spacing: 5px;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+
+  }
+ 
+  .hero .mark{
+    height: 30px;
+    color: black;
+    background-color: rgb(219, 230, 226);
+    font-size: 20px;
+  }
+ .hero .hero_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    
+  }
+ 
+  .hero_content button{
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .hero_content img{
+    width: 70%;
+    height: 500px;
+    
+  
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* home 2--------------------------- */
+.home2{
+    background: linear-gradient(60deg,white,rgb(84, 74, 74));
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+    }
+    .home2 h3{
+    font-size: 40px;
+    }
+    .home2 .box1 img{
+      position: relative;
+        animation: example 4s infinite ease-in-out;
+        box-shadow: 12px 10px 10px;
+        border-radius: 10px;
+
+    }
+    @keyframes example{
+    
+      0% {
+          top: 0px;
+          left: 0px;
+      }
+      25% {
+          
+          left: 100px;
+      }
+      50% {
+           left: 100px;
+      }
+      75% {
+          left: 0px;
+      }
+      100% {
+          top: 0px;
+          left: 0px;
+      }
+    }
+    
+    .home2 .box2 img{
+      position: relative;
+        animation: example 4s infinite ease-in-out;
+        box-shadow: 12px 10px 10px;
+        border-radius: 10px;
+    }
+    @keyframes example{
+    
+      0% {
+          top: 0px;
+          left: 0px;
+      }
+      25% {
+          top: 0px;
+          left: 100px;
+      }
+      50% {
+           left: 100px;
+      }
+      75% {
+          left: 0px;
+      }
+      100% {
+          top: 0px;
+          left: 0px;
+      }
+    }
+
+    
+/* ----------------home1------------ */
+.home1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(275px,1fr));
+    background: linear-gradient(45deg,rgb(153, 128, 153),white);
+    
+    padding: 40px;
+    gap: 30px;
+  }
+
+  .home1 .box img{
+  height: 300px;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 12px 10px 13px ;
+
+ }  
+  .home1 .box img:hover{
+  transform: scale(0.9);
+  border-radius: 20px;
+  }
+  
+  .home1 .box h4{
+  font-size: 35px;
+  margin-top: 20px;
+  }
+  .home1 .box p{
+  font-size: 25px;
+  }
+  .home1 .box h3{
+  font-size: 25px;
+  padding-top: 20px;
+  color:rgb(31, 31, 200);
+  
+  }
+  .home-one .a{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(41, 38, 38);
+  }
+
+
+
+
+
+  /* -----------------footer----------- */
+.footer{
+
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    }
+    
+    .footer .footer_up
+    {
+    color: aliceblue;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    
+    .footer .footer_up h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+    .footerup_content{
+        padding: 20px;
+        margin:20px 20px;
+    }
+    
+    .footer .footer_up p{
+    color: antiquewhite;
+    font-size: 15px;
+    }
+    
+    .footer_down{
+    font-size: 20px;
+    color: white;
+    }
+    
+    
